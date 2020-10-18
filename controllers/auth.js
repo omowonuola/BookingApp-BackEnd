@@ -1,7 +1,7 @@
-const ErrorResponse = require("../../Bookings/utilis/errorResponse");
+const ErrorResponse = require("../../server/utilis/errorResponse");
 const asyncHandler = require("../middleware/async");
 const auth = require("../middleware/auth");
-const User = require("../../Bookings/models/users");
+const User = require("../../server/models/users");
 
 // @desc        Register user
 // @route       POST/auth/register
