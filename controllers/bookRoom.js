@@ -1,8 +1,8 @@
-const ErrorResponse = require("../../server/utilis/errorResponse");
+const ErrorResponse = require("../utilis/errorResponse");
 const asyncHandler = require("../middleware/async");
-const Room = require("../../server/models/rooms");
-const User = require("../../server/models/users");
-const BookRoom = require("../../server/models/bookRoom");
+const Room = require("../models/rooms");
+const User = require("../models/users");
+const BookRoom = require("../models/bookRoom");
 
 // @desc    Book a room
 // @route   POST /api/bookroom/roomId
