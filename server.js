@@ -29,6 +29,9 @@ app.use(cors());
 
 // Cookie parser
 app.use(cookieParser());
+app.get('/', (req, res) => 
+  res.send({ msg: "Welcome here" })
+);
 
 // Dev logging middleware
 if (process.env.NODE_ENV === "development") {
